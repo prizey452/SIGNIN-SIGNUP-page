@@ -49,11 +49,11 @@ if (isset($_POST['signup'])) {
                     while ($fetch = mysqli_fetch_assoc($query)) {
                         if ($password == $fetch['passcode']) {
 
-                            header('location: header.html');
+                            header('location: '); //enter your index html page here after:
                             // echo "<script>alert('passcode IS REGISTERED')</script>";
                         } else {
 
-                            header('location: SIGNUP.php');
+                            // header('location: SIGNUP.php');
                         }
                     }
                 }

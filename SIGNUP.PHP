@@ -55,6 +55,8 @@ if (isset($_POST['signup'])) {
                     $insert = "INSERT INTO admins(ID,username,passcode) VALUES (NULL,'$username', '$password')";
                     if (!mysqli_query($connection, $insert)) {
                         echo "error" . mysqli_error($connection);
+                    } else {
+                        header('location: home.html');
                     }
                 }
             }
