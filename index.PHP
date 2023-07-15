@@ -9,7 +9,7 @@ include 'connection.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="register.css">
-    <link rel="icon" href="images/FAITH LOGO.png">
+    <link rel="icon" href=""> <!--enter location/path logo-->
 </head>
 
 <body>

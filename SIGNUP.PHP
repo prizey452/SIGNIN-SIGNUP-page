@@ -11,7 +11,7 @@ include 'connection.php';
     <title>SIGNUP</title>
 </head>
 <link rel="stylesheet" href="register.css">
-<link rel="icon" href="images/FAITH LOGO.png">
+<link rel="icon" href=""> <!--enter location/path logo-->
 
 <body>
     <!-- //SIGNIN/SIGNUP FORM -->
